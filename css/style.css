@@ -1,0 +1,459 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+.cover-bg{
+    
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.mt-20{
+	margin-top: 20px;      
+}
+
+.mb-20{
+	margin-bottom: 20px;
+}
+
+.mb-30{
+	margin-top: 30px; 
+}
+
+
+.pb-35{
+	padding-bottom: : 35px
+}
+
+.mt-35{
+	margin-top: 35px;
+}
+
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.py-15{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*** section title css***/
+.section_padding{
+	padding: 100px 0;
+}
+
+
+h1,h2,h3,h4,{
+	font-family: 'lato' , sans-serif;
+	color: #151515;
+	font-weight: 700;
+}
+
+p{
+	line-height: 1.6;
+	color: #777;
+}
+
+span, a{
+	display: inline-block;
+}
+/*** section  title css ***/
+.section_title{
+	position: relative;
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+.section_title p{
+	background-color: #1957f3;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 12px;
+	letter-spacing: 1px;
+}
+
+.section_title h3{
+	position: relative;
+	font-size: 36px;
+	text-transform: capitalize;
+	line-height: 1.14;
+	letter-spacing: 1.4px;
+	padding-bottom: 13px;
+}
+
+.section_title h3:after{
+	content: '';
+	position: absolute;
+	display: block;
+	height: 30px;
+	width: 2px;
+	bottom: -30px;
+	left: 50%;
+	background-color: #1957f3;
+	transform: translate(-50%,0);
+}
+
+/*** buttons css ***/
+.btn{
+	background-color: #1957f3;
+	border: 2px solid #1957f3;
+	padding: 15px 20px;
+	box-shadow: 0 0 0 0 #fff;
+	letter-spacing: 1px;
+	border-radius: 0;								                    																																																																																																																									;
+	color: #fff;
+	font-size: 14px;
+	transition: 0.8s all;
+}
+
+
+.btn:hover{
+	box-shadow: inset 12em 0 0 0 #fff;
+	color: #1957f3;
+}
+
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../images/bg9.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+}
+
+.banner .caption h4{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.banner .caption h2{
+	color: #fff;
+	font-size: 70px;
+	letter-spacing: -1px;
+}
+
+.banner .caption p{
+  font-size: 17px;
+  color: #fff;
+  line-height: 35px;
+  opacity: 0.7;	
+}
+
+
+.banner .caption .social_icon a{
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	font-size: 30px;
+	transition: 0.5s all;
+
+}
+
+.banner .caption .social_icon a:hover{
+	color: #1957f3;
+}
+
+/*** about section css***/
+.about .part_text h4{
+	font-size: 24px;
+}
+
+.about .part_text p{
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.about .part_text .info li{
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+/*** hire me section css ***/
+.hire_me{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../images/bg6.jpg);
+	background-attachment: fixed;
+
+}
+
+.hire_me h2{
+	color: #fff;
+	font-size: 52px;
+	font-weight: 800;
+}
+
+/***Service section css***/
+.services .service_box{
+	border: 1px solid  #fafafa;
+	transition: all 0.5s;
+} 
+
+.services .service_box:hover{
+	box-shadow: -1px 3px 10px rgba(0,0,0,0.06); 
+	color: #1957f3;
+}
+
+.services .box{
+	position: relative;
+	padding: 50px;
+}	
+
+.services .service_box .icon i{
+	color: #1957f3;
+	font-size: 38px;
+}
+.services .box_title{
+	position: relative;
+	margin-top: 10px;
+	padding-bottom: 8px;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.services .box_title:before{
+
+	content: '';
+	display: inline-block;
+	width: 15%;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(91, 52, 255, 0.2);
+}
+
+.services .service_box:after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid #f7f7f7;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+
+/**** testimonial css****/
+.testimonial{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(images/bg13.jpg);
+	background-attachment: fixed;
+}
+
+.testimonial .section_title h3{
+	color: #fff;
+}
+
+.testimonial .testimonial_item{
+	text-align: center;
+	background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+	padding: 30px;
+}
+
+.testimonial .testimonial_item .icon i{
+	color: #1957f3;
+	font-size: 30px;
+}
+
+.testimonial .testimonial_item p{
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.testimonial .testimonial_item .testimonial_author{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimonial .testimonial_item .testimonial_author .part_img{
+	width: 110px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.testimonial .testimonial_item .testimonial_author .part_img img{
+	border-radius: 50%;
+}
+
+.testimonial .testimonial_item .testimonial_author .text{
+	text-align: left;
+}
+
+.testimonial .testimonial_item .testimonial_author .text h5{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+
+.testimonial .testimonial_item .testimonial_author .text h6{
+	color: #ccc;
+	font-size: 14px;
+}
+/*** blog section css***/
+.blog{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(images/bg8.jpg);
+	border: 1px solid #fafafa;
+	transition: all 0.3s;
+} 
+
+.blog .blog_item .part_img{
+	position: relative;
+	overflow: hidden;
+    transition: all 0.3s;
+}
+
+.blog .blog_item .part_img img{
+	    transition: all 0.3s;
+}
+
+.blog .blog_item:hover .part_img img{
+	transform: scale(1.1);
+	opacity: 0.7;
+}
+.blog .blog_item .part_img .post-info-category{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.blog .blog_item .part_img .post-info-category a{
+	background-color: #1957f3;
+	padding: 7px 19px;
+	color: #fff;
+}
+
+.blog .blog_item .content{
+	padding: 20px;
+}
+
+.blog .blog_item .content .title{
+	margin-bottom: 20px;	
+}
+.blog .blog_item .content .title h4{
+	font-size: 16px;
+}
+
+.blog .blog_item .content .title h4 a{
+	color: #000;
+}
+
+.blog .blog_item .content .title .meta span{
+	color: #fff;
+	font-size: 12px;
+}
+
+.col-lg-4 p{
+	color: #fff;
+}
+.blog .blog_item .content .author{
+
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+.blog .blog_item .content .author .author_img{
+	width: 35px;
+	height: 35;
+	border: 2px solid #1957f3;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+.blog .blog_item .content .author .author_img img{
+		border-radius: 50%;
+}
+.blog .blog_item .content .author .text h5{
+	font-size: 10px;
+	font-weight: 800;
+	margin: 0
+}
+
+.blog .blog_item .content .author .text h5 a{
+	color: #fff;
+}
+
+/*** contact section css***/
+.contact{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../images/bg62.jpg);
+	background-attachment: fixed;
+}
+.contact .section_title h3{
+	color: #fff;
+}
+
+.contact .part_info{
+		background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+		padding: 30px;
+		margin-bottom: 50px;
+}
+
+.contact .info-block{
+	border-right: 1px solid #fff;
+}
+
+.contact .part_info .info-block .icon{
+	margin-bottom: 15px;
+}
+
+.contact .part_info .info-block .icon i{
+	display: inline-block;
+	color: #fff;
+	font-size: 30px
+}
+.contact .part_info .info-block h5{
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.contact .part_info .info-block p{
+	color: #fff;
+	opacity: 0.9;
+}
+.contact .part_info .col-md-4:last-child .info-block{
+	border-right: 0;
+}
+.contact .contact-form{
+	background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+	padding: 30px;
+}
+.contact .contact-form input,
+.contact .contact-form textarea{
+	color: #fff;
+	background: transparent;
+	padding: 10px 15px;
+	border-radius: 0;
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.28);
+	margin-bottom: 15px;
+	font-size: 12px;
+	transition: 0.3s all;
+}
+
+.contact .contact-form input::placeholder,
+.contact .contact-form textarea::placeholder{
+	color: #fff;
+}
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus{
+	border: 1px solid #fff;
+	outline: none;
+	box-shadow: none;
+}
+.contact .contact-form textarea{
+	height: 120px;
+}
