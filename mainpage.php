@@ -81,7 +81,7 @@ include_once 'source/session.php';
 						</li>
                         <li>
 							<span class="title"><strong>Age:</strong></span>
-							<span class="value"><strong>17</strong></span>							
+							<span class="value"><strong>19</strong></span>							
 						</li>
                         <li>
 							<span class="title"><strong>Phone:</strong></span>
